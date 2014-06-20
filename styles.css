@@ -1,0 +1,59 @@
+body {
+    background: url("http://miriadna.com/desctopwalls/images/max/Orange-space.jpg");
+}
+
+.dead {
+    top: 50%;
+    left: 50%;
+    color: red;
+    position: absolute;
+}
+
+.explosion {
+    top: 50%;
+    left: 50%;
+    color: red;
+    position: absolute;
+}
+
+.popo {
+    top: 50%;
+    left: 50%;
+    color: green;
+    position: absolute;
+}
+
+.ride {
+    top: 50%;
+    left: 50%;
+    color: blue;
+    position: absolute;
+}
+
+.cop {
+    top: 80%;
+
+    color: red;
+    position: absolute;
+}
+
+.van {
+    top: 80%;
+
+    color: red;
+    position: absolute;
+}
+
+.taxi {
+    top: 80%;
+    color: red;
+
+    position: absolute;
+}
+
+.player {
+    top: 80%;
+    left: 60%;
+    color: blue;
+    position: absolute;
+}
