@@ -1,8 +1,7 @@
-var Taxi = function(){
+var Taxi = function(timeBetweenSteps){
     this.$node = $('<span class="taxi">TAXI</span>');
-    // this.$node = $('<img class="cop" src="giphy.gif">');
     this.step();
-    this._timeBetweenSteps = 50;
+    this._timeBetweenSteps = timeBetweenSteps;
     this.width = $('body').width();
     this.travel = 1;
 };
