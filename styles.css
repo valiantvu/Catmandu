@@ -1,59 +1,32 @@
 body {
-    background: url("http://miriadna.com/desctopwalls/images/max/Orange-space.jpg");
+    background: url("beamo.gif");
+    background-size: 100%;
 }
-
-.dead {
-    top: 50%;
-    left: 50%;
-    color: red;
-    position: absolute;
+h3 {
+    color: white;
+    left: 80%;
 }
-
 .explosion {
-    top: 50%;
-    left: 50%;
-    color: red;
+    top: 20%;
+    left: 15%;
     position: absolute;
 }
-
-.popo {
-    top: 50%;
-    left: 50%;
-    color: green;
+.popo, .ride, .dead {
+    top: 20%;
+    font-size: 200px;
+    color: white;
     position: absolute;
 }
-
-.ride {
-    top: 50%;
-    left: 50%;
-    color: blue;
+.cop, .van, .taxi {
+    top: 10%;
+    font-size: 50px;
+    color: black;
     position: absolute;
 }
-
-.cop {
-    top: 80%;
-
-    color: red;
-    position: absolute;
-}
-
-.van {
-    top: 80%;
-
-    color: red;
-    position: absolute;
-}
-
-.taxi {
-    top: 80%;
-    color: red;
-
-    position: absolute;
-}
-
 .player {
-    top: 80%;
+    top: 10%;
     left: 60%;
+    font-size: 50px;
     color: blue;
     position: absolute;
 }
